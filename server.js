@@ -25,4 +25,8 @@ app.get("/:q", function(req, res){
   }
 });
 
+app.get("*",function(req,res){
+  res.redirect("/index.html");
+});
+
 http.createServer(app).listen(process.env.PORT);
