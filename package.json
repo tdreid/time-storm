@@ -5,6 +5,9 @@
   "main": "server.js",
   "repository": "https://github.com/tdreid/time-storm",
   "author": "Trevor Reid <trevor.d.reid@gmail.com>",
+  "engines": {
+      "node": "4.6.1"
+    },
   "dependencies": {
     "express": "~3.2.6",
     "moment": "~2.17.1",
